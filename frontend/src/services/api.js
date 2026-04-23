@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://lost-found-backend.onrender.com/api",
+  baseURL: "https://lost-found-backend-okzi.onrender.com/api"
 });
 
 API.interceptors.request.use((req) => {
